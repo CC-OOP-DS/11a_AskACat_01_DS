@@ -26,7 +26,7 @@ public class Cat extends Pet{
 
 	@Override
 	public String petSounds() {
-		return this + " says: Meeeeow!";
+		return name + " says: Meeeeow!";
 	}
 	
 	// irgendeine Katze nach dem Namen fragen

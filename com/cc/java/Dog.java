@@ -20,7 +20,7 @@ public class Dog extends Pet{
 
 	@Override
 	public String petSounds() {
-		return this + " says: Bark!";
+		return name + " says: Bark!";
 	}
 
 	// irgendeine Katze nach dem Namen fragen cat.getName()
